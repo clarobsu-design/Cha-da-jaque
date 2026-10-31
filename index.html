@@ -494,7 +494,8 @@ function render() {
   document.getElementById("giftGrid").innerHTML =
     items.map(g=>`
       <article class="card">
-        <img src="${g[3]}" alt="${g[1]}" loading="lazy">
+        <img src="${g[3]}" alt="${g[1]}" loading="lazy"
+onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80';">
         <div class="body">
           <span class="tag">${g[0]}</span>
           <h3>${g[1]}</h3>
