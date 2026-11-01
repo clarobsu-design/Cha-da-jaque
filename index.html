@@ -168,6 +168,9 @@ main {
 
 .body .btn {
   margin-top: auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .money {
@@ -423,7 +426,6 @@ const gifts = [
 ["Panelas e frigideiras","Panela de pressão","Tamanho e modelo à escolha.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
 ["Panelas e frigideiras","Leiteira","Para aquecer leite e preparar bebidas.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
 ["Panelas e frigideiras","Chaleira","Para ferver água com praticidade.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
-["Panelas e frigideiras","Cuscuzeira","Para preparar cuscuz.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
 ["Panelas e frigideiras","Forma de bolo","Para bolos e receitas caseiras.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
 ["Panelas e frigideiras","Forma de pudim","Uma forma para sobremesas.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
 ["Panelas e frigideiras","Assadeira retangular","Para assados e receitas de forno.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
@@ -437,7 +439,6 @@ const gifts = [
 ["Utensílios","Pegador de macarrão","Para servir massas.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
 ["Utensílios","Ralador","Um ralador multiuso.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
 ["Utensílios","Abridor de latas","Acessório básico para a cozinha.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
-["Utensílios","Saca-rolhas","Para abrir garrafas.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
 
 ["Mesa posta","Jogo de pratos rasos","Conjunto para refeições.","https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=700&q=80"],
 ["Mesa posta","Jogo de pratos fundos","Conjunto para sopas e caldos.","https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=700&q=80"],
@@ -466,19 +467,9 @@ const gifts = [
 ["Organização","Lixeira de cozinha","Modelo de bancada ou de chão.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
 ["Organização","Porta-papel-toalha","Para deixar à mão.","https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"],
 
-["Eletrodomésticos","Liquidificador","Para sucos, vitaminas e receitas.","https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80"],
-["Eletrodomésticos","Batedeira","Para bolos e massas.","https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80"],
-["Eletrodomésticos","Cafeteira elétrica","Para preparar café.","https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80"],
-["Eletrodomésticos","Sanduicheira","Para lanches rápidos.","https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80"],
-["Eletrodomésticos","Air fryer","Para preparar diversos alimentos.","https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80"],
-["Eletrodomésticos","Mixer","Para bater e misturar ingredientes.","https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80"],
-["Eletrodomésticos","Torradeira","Para preparar torradas.","https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80"],
-["Eletrodomésticos","Panela elétrica de arroz","Para facilitar o preparo do arroz.","https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=80"],
-
 ["Têxteis","Kit de panos de prato","Conjunto para o dia a dia.","https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=700&q=80"],
 ["Têxteis","Avental","Para cozinhar com praticidade.","https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=700&q=80"],
 ["Têxteis","Luva térmica","Para manusear formas quentes.","https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=700&q=80"],
-["Têxteis","Toalha de mesa","Para receber família e amigos.","https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=700&q=80"],
 ["Têxteis","Jogo americano","Para compor a mesa.","https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=700&q=80"],
 ["Têxteis","Tapete para cozinha","Para deixar o ambiente aconchegante.","https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=700&q=80"],
 ["Têxteis","Puxa-saco","Para organizar sacolas.","https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=700&q=80"],
@@ -508,11 +499,10 @@ const gifts = [
 const cats = ["Todos",...new Set(gifts.map(x=>x[0]))];
 let active = "Todos";
 
-function notifyGift(name) {
+function giftWhatsAppLink(name) {
   const msg = `Olá, Jaque! Quero levar o presente "${name}" para o seu Chá de Cozinha. 💚`;
-  window.open(
-    `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`,
-    "_blank"
+  return `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`;
+}
   );
 }
 
@@ -545,9 +535,9 @@ onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-155691122
           <span class="tag">${g[0]}</span>
           <h3>${g[1]}</h3>
           <p>${g[2]}</p>
-          <button class="btn" onclick="notifyGift(${JSON.stringify(g[1])})">
-            Vou levar este presente
-          </button>
+          <a class="btn" href="${giftWhatsAppLink(g[1])}" target="_blank" rel="noopener">
+  Vou levar este presente
+</a>
         </div>
       </article>
     `).join("");
